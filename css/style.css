@@ -8,12 +8,12 @@ body {
 
 h1 {
   font-size: 2.75em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 2.25em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h3 {
@@ -27,7 +27,7 @@ h4 {
 }
 
 .button.contact {
-  background-color: #e02401;
+  background-color: #38383C;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -38,12 +38,12 @@ h4 {
 }
 
 .button.contact:hover {
-  background-color: #51050f;
+  background-color: #000000;
   color: #ffffff;
 }
 
-.button.olive {
-  background-color: #e02401;
+.button.Allure {
+  background-color: #38383C;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -53,13 +53,13 @@ h4 {
   font-size: 16px;
 }
 
-.button.olive:hover {
-  background-color: #51050f;
+.button.Allure:hover {
+  background-color: #000000;
   color: #ffffff;
 }
 
 .button.resume {
-  background-color: #e02401;
+  background-color: #38383C;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -70,6 +70,6 @@ h4 {
 }
 
 .button.resume:hover {
-  background-color: #51050f;
+  background-color: #000000;
   color: #ffffff;
 }
