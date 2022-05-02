@@ -1,3 +1,13 @@
+/*
+Colors used:
+Dark grey: #38383C
+Black: #000000
+Beige: #BDB7AE
+*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: Poppins, sans-serif;
@@ -7,23 +17,97 @@ body {
 }
 
 h1 {
-  font-size: 2.75em;
+  font-size: 2.5em;
   font-weight: 600;
+  line-height: 1.0;
+  color: #000000;
 }
 
 h2 {
   font-size: 2.25em;
   font-weight: 600;
+  line-height: 1.0;
+  color: #000000;
 }
 
 h3 {
   font-size: 1.75em;
   font-weight: 400;
+  line-height: 1.0;
+  color: #000000;
 }
 
 h4 {
   font-size: 1.35em;
   font-weight: 400;
+  line-height: 1.0;
+  color: #000000;
+}
+
+img {
+  width: 100%;
+}
+
+/*HOMEPAGE*/
+.logo {
+  max-width: 200px;
+  align-items: flex-start;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+header {
+  text-align: center;
+  padding: 5px 4px;
+  border-bottom: 2px solid #0B1F53;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li>a {
+  display: inline-block;
+  padding: 5px 20px;
+  color: #BDB7AE;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.navtoggle,
+.navtoggle.responsive {
+  position: relative;
+}
+
+nav>ul>li>a:hover {
+  transition: 0.3s;
+  background-color: #e8e8e8;
+}
+
+.hero {
+  text-align: center;
+  font: 'Poppins';
+  border: solid;
+  border-width: 8px;
+  padding: 10px 20px;
+  margin-top: 30px;
 }
 
 .button.contact {
@@ -35,6 +119,10 @@ h4 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 3px;
+  border-style: solid;
+  transition-duration: 0.2s;
+  margin-bottom: 20px;
 }
 
 .button.contact:hover {
@@ -51,6 +139,30 @@ h4 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 3px;
+  border-style: solid;
+  transition-duration: 0.2s;
+  margin-bottom: 20px;
+}
+
+.button.SimplySweet:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.button.SimplySweet {
+  background-color: #38383C;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  border-style: solid;
+  transition-duration: 0.2s;
+  margin-bottom: 20px;
 }
 
 .button.Allure:hover {
@@ -67,9 +179,141 @@ h4 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 3px;
+  border-style: solid;
+  transition-duration: 0.2s;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.3em;
+
 }
 
 .button.resume:hover {
   background-color: #000000;
   color: #ffffff;
 }
+    .myskills {
+    text-align: left;
+    font: 'Poppins';
+    padding: 40px;
+    width: auto;
+    height: 425px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+  }
+
+    .footer p h1 {
+      margin-bottom: 20px 10px;
+    }
+
+    #footer {
+      padding: 10px 0;
+      background-color: #f7f8fa;
+      margin: 0 auto;
+      width: auto;
+    }
+
+    /*PADDING/MARGINS*/
+    .container {
+      padding: 0 25px;
+      width: auto;
+    }
+
+    .row {
+      margin: 30px 0;
+    }
+
+    .leftp50 {
+        padding-left: 50px;
+        padding-top: 0px;
+      }
+
+      .leftp100 {
+        padding-left: 100px;
+      }
+
+      .leftp200 {
+        padding-left: 200px;
+      }
+
+      .rightp50 {
+        padding-right: 50px;
+        padding-top: 0px;
+      }
+
+      .rightp100 {
+        padding-right: 100px;
+      }
+
+      .rightp200 {
+        padding-right: 200px;
+      }
+
+      .topp200 {
+        padding-top: 200px;
+      }
+
+      .topp150 {
+        padding-top: 150px;
+      }
+
+      .topp100 {
+        padding-top: 100px;
+      }
+
+      .topp50 {
+        padding-top: 50px;
+      }
+
+      .bottomp50 {
+        padding-top: 50px;
+      }
+
+
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
+#about{
+  padding-top: 10px;
+  display: none;
+}
+
+.about-list {
+  padding: 0;
+  list-style-position: inside;
+}
+
+.center {
+  text-align: center;
+}
+
+.center picture img {
+  padding: 70px;
+}
+
+      .white {
+        background-color: #fffff;
+        padding: 30px 0;
+      }
+
+      .grey {
+        background-color: #f7f8fa;
+        padding: 30px 0;
+
+      }
+
+      .textmargin {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+      #work .col-6 {
+  margin-bottom: 3em;
+}
+
+main {
+  padding-top: 51px;
