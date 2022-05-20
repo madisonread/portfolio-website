@@ -50,17 +50,25 @@ img {
 
 /*HOMEPAGE*/
 .logo {
-  max-width: 200px;
-  align-items: flex-start;
+  max-width: 300px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
 }
+
 
 [class*="col-"] {
   float: left;
 }
 
-header {
-  text-align: center;
-  padding: 5px 4px;
+.header {
+  background-color: #ff7689
+  padding: 15px 4px;
+  margin: 0;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
   border-bottom: 2px solid #0B1F53;
 }
 
@@ -349,7 +357,7 @@ opacity: 0.8;
 }
 
 main {
-  padding-top: 51px;
+  padding-top: 100px;
 }
 
 .berlin-illustration {
@@ -432,7 +440,7 @@ Medium devices (640px and larger)
     }
 
     .logo {
-      min-width: 250px;
+      min-width: 300px;
     }
 
     .navtoggle .logo {
@@ -488,10 +496,6 @@ Medium devices (640px and larger)
       padding-left: 0;
     }
 
-    .about .bullets {
-      padding: 15px 3px;
-    }
-
     #hero {
       padding: 140px 0;
     }
@@ -502,6 +506,10 @@ Medium devices (640px and larger)
 
     .relevant-skills {
       padding-left: 0;
+    }
+
+    .about .bullets {
+      padding: 15px 3px;
     }
   }
 
