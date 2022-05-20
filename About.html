@@ -12,33 +12,35 @@
   <title>Madison Read's Portfolio</title>
 </head>
 
-  <body>
-    <style>
-      /* This style sets the width of all images to 100%: */
-      img {
-        width: 100%;
-      }
-    </style>
-    <header>
+<!-- Header Section -->
 
-       <div class="header">
+<body>
+  <style>
+    /* This style sets the width of all images to 100%: */
+    img {
+      width: 100%;
+    }
+  </style>
+  <header>
 
+    <div class="header">
+      <div class="navtoggle" id="myNavtoggle">
 
-         <picture>
-                <img src="imgs/MADISON-READ.svg" alt="Madison Read Logo" style="width: 300px; height: 50px">
- </picture>
- <nav class=".navtoggle">
-   <!-- Main navigiation -->
-          <ul>
-            <!-- Unordered list -->
-            <li><a href="index.html">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+        <img class="logo" src="imgs/MADISON-READ.svg" alt="Madison Read Logo">
 
-          </div>
-    </header>
+      <nav>
+        <!-- Main navigiation -->
+        <ul>
+          <!-- Unordered list -->
+          <li><a href="index.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars" aria-hidden="true"></i></a></li>
+        </ul>
+      </nav>
+  </div>
+    </div>
+  </header>
   <!-- end of main navigiation -->
 
   <main class="container">
@@ -49,7 +51,7 @@
         <h1>About</h1>
       </div><!-- Close Yellow (container) -->
     </div><!-- Close Orange (section) -->
-    <div>
+    <div  class="white-intro">
       <!-- Orange (section 2) -->
       <div>
         <!-- Yellow (container) -->
