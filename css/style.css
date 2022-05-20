@@ -89,14 +89,31 @@ nav>ul>li {
   padding: 0;
 }
 
-nav>ul>li>a {
-  display: inline-block;
-  padding: 5px 20px;
-  color: #BDB7AE;
-  text-transform: uppercase;
+nav > ul > li > a {
+  margin: 0 15px;
+  font-weight: 400;
   text-decoration: none;
-  font-weight: 800;
-  font-size: 1.1em;
+  color: #38383C !important;
+}
+
+nav > ul > li > a:visited {
+  color: #38383C;
+}
+
+nav > ul > li > a:hover {
+  color: #BDB7AE;
+  border-bottom: 3px solid #38383C;
+  transition: 0.3s;
+  background-color: #e8e8e8;
+}
+
+nav a.active {
+  color: #fff;
+  border-bottom: 3px solid #38383C;
+}
+
+nav > ul > li > a:active {
+  color: #BDB7AE;
 }
 
 .navtoggle li:not(:last-child) {
@@ -106,6 +123,10 @@ nav>ul>li>a {
 .navtoggle,
 .navtoggle.responsive {
   position: relative;
+}
+
+.navtoggle.responsive li {
+  disply: block;
 }
 
 .navtoggle li .icon {
@@ -126,7 +147,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: #303634;
+  color: #38383C;
   text-decoration: none;
 }
 
@@ -135,10 +156,6 @@ a:active {
   text-decoration: none;
 }
 
-nav>ul>li>a:hover {
-  transition: 0.3s;
-  background-color: #e8e8e8;
-}
 
 .hero {
   text-align: center;
@@ -339,7 +356,12 @@ opacity: 0.8;
 
 .white {
   background-color: #fffff;
-  padding: 30px 0;
+  padding: 50px 0;
+}
+
+.white-intro{
+  background-color: #fffff;
+  padding: 200px 0;
 }
 
 .grey {
@@ -433,6 +455,10 @@ Medium devices (640px and larger)
 
     .navtoggle.responsive nav {
       padding: 0;
+    }
+
+    nav>ul {
+      margin: 1em 0;
     }
 
     nav>ul>li {
