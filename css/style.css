@@ -63,8 +63,8 @@ img {
 }
 
 .header {
-  background-color: #ff7689
-  padding: 15px 4px;
+  background-color: #ffffff;
+  padding: 0;
   margin: 0;
   position: fixed;
   display: inline-block;
@@ -256,14 +256,10 @@ opacity: 0.8;
   margin-right: 20px;
 }
 
-.footer p h1 {
-  margin-bottom: 20px 10px;
-}
-
-#footer {
+.footer {
   padding: 10px 0;
   background-color: #f7f8fa;
-  margin: 0 auto;
+  margin-bottom: 20px 10px;
   width: auto;
 }
 
