@@ -126,7 +126,7 @@ nav > ul > li > a:active {
 }
 
 .navtoggle.responsive li {
-  disply: block;
+  display: block;
 }
 
 .navtoggle li .icon {
