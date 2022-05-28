@@ -8,6 +8,10 @@ Beige: #BDB7AE
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
 body {
   background-color: #ffffff;
   font-family: Poppins, sans-serif;
